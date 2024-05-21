@@ -1,0 +1,11 @@
+version: 2
+
+seeds:
+  - name: sales_store
+    config:
+      database: BRONZE
+      schema: RAW_SALES
+      column_types:
+        store_name: varchar(100)
+        state_name: varchar(200)
+        store_zip_code: varchar(6)

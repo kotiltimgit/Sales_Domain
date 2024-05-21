@@ -1,0 +1,1 @@
+Select Current_timestamp()

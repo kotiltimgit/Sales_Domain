@@ -1,0 +1,14 @@
+version: 2
+
+seeds:
+  - name: country_codes
+    description: Manual mapping of country code , country names and president names
+    config:
+      database: BRONZE
+      schema: RAW_DATA
+    columns:
+      - name: president_name
+        tests:
+          - unique
+          - not_null
+          
